@@ -1,0 +1,30 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  background-color: white;
+  height: 600px;
+  width: 650px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  flex-direction: column;
+  margin: 8px;
+  text-align: center;
+}
+.heading {
+  color: #cb8805;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-bottom: 9px;
+}
+.list-container {
+  list-style-type: none;
+  margin: 8px;
+}
